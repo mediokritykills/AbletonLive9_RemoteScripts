@@ -38,7 +38,7 @@ class MelodicPattern(NamedTuple):
     scale = range(12)
     base_note = 0
     origin = [0, 0]
-    chromatic_mode = False
+    chromatic_mode = True
 
     @lazy_attribute
     def extended_scale(self):
